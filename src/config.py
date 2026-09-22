@@ -1,9 +1,6 @@
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
 DATA=ROOT/'data'/'dataset_phishing.csv'
-RESULTS=ROOT/'results'
-CSV=RESULTS/'csv'
-FIG=RESULTS/'figures'
 CHECK=RESULTS/'checkpoints'
 MODELS=ROOT/'models'
 BASELINES=MODELS/'baselines'

@@ -1,3 +1,0 @@
-# Optional explainability / notebook packages
-shap>=0.45,<1
-openpyxl>=3.1,<4
