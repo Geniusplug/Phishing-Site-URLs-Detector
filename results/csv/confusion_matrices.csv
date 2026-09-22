@@ -1,0 +1,8 @@
+model,tn,fp,fn,tp
+logisticregression,820,38,56,801
+decisiontree,802,56,46,811
+randomforest,833,25,24,833
+extratrees,833,25,30,827
+svm_rbf,828,30,34,823
+race_phish,818,40,40,817
+race_phish_adaptive,808,50,44,813

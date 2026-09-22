@@ -2,21 +2,11 @@
 __pycache__/
 *.pyc
 
-# Research material and generated experiment output are kept out of the demo repo.
-data/
-docs/
-paper_assets/
-results/
-src/
-run_training.bat
-run_training.ps1
-tests/
-
-# Local runtime state.
+# Local development and runtime state.
 logs/
 *.db
+results/checkpoints/
 
-# Keep only the files required by the raw-URL deployment demo.
-models/*
-!models/deployment_url_model.joblib
-!models/deployment_features.json
+# Python-generated files.
+**/__pycache__/
+*.egg-info/

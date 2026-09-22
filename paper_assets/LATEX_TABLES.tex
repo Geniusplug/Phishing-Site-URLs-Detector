@@ -1,0 +1,36 @@
+% Auto-generated from CSV. Re-run the pipeline before final submission.
+\begin{table*}[t]
+\centering
+\caption{Comparison of baseline and proposed models on the locked test set.}
+\begin{tabular}{lrrrrr}
+\hline
+Model & Accuracy & F1 & MCC & ROC-AUC & PR-AUC \\ 
+\hline
+LogisticRegression & 0.9452 & 0.9446 & 0.8906 & 0.9835 & 0.9829 \\
+DecisionTree & 0.9405 & 0.9408 & 0.8811 & 0.9520 & 0.9316 \\
+RandomForest & 0.9714 & 0.9714 & 0.9429 & 0.9951 & 0.9951 \\
+ExtraTrees & 0.9679 & 0.9678 & 0.9359 & 0.9941 & 0.9945 \\
+SVM-RBF & 0.9627 & 0.9626 & 0.9254 & 0.9913 & 0.9901 \\
+RACE-Phish & 0.9534 & 0.9533 & 0.9067 & 0.9882 & 0.9860 \\
+RACE-Phish-Adaptive & 0.9452 & 0.9453 & 0.8904 & 0.9772 & 0.9762 \\
+\hline
+\end{tabular}
+\end{table*}
+
+\begin{table}[t]
+\centering
+\caption{Component-wise ablation study.}
+\begin{tabular}{lrr}
+\hline
+Experiment & F1 & ROC-AUC \\ 
+\hline
+Full-RACE & 0.9532 & 0.9871 \\
+No-Reliability & 0.9503 & 0.9874 \\
+No-Consistency & 0.9532 & 0.9872 \\
+Lexical-only & 0.8382 & 0.9180 \\
+Lexical+Domain & 0.8759 & 0.9498 \\
+Lexical+Domain+Semantic & 0.9513 & 0.9864 \\
+View-Dropout & 0.9545 & 0.9881 \\
+\hline
+\end{tabular}
+\end{table}

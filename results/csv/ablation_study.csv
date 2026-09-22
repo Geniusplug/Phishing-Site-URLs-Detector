@@ -1,0 +1,8 @@
+experiment,views,view_dropout,use_reliability,use_consistency,f1,roc_auc,train_seconds,epochs
+Full-RACE,lexical+domain+path+semantic,False,True,True,0.9532163742690059,0.9871604474871686,1.9224398000078509,40
+No-Reliability,lexical+domain+path+semantic,False,False,True,0.9503214494447692,0.9873712440806957,2.0001634000072954,40
+No-Consistency,lexical+domain+path+semantic,False,True,False,0.9532163742690059,0.9871563675531003,1.9934730000095442,40
+Lexical-only,lexical,False,True,True,0.838160136286201,0.9180164448542512,0.49892489999183454,40
+Lexical+Domain,lexical+domain,False,True,True,0.8759464181712289,0.9496971328943324,0.9716982000099961,40
+Lexical+Domain+Semantic,lexical+domain+semantic,False,True,True,0.9512624779800353,0.9863417407174699,1.4914198000042234,40
+View-Dropout,lexical+domain+path+semantic,True,True,True,0.9544924154025671,0.9881151520591427,1.8163150000036694,40
